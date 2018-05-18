@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21378" started-at="2018-05-16T08:23:45Z" finished-at="2018-05-16T08:24:06Z">
+  <suite name="Suite" duration-ms="24272" started-at="2018-05-18T05:54:45Z" finished-at="2018-05-18T05:55:10Z">
     <groups>
     </groups>
-    <test name="firefox" duration-ms="21378" started-at="2018-05-16T08:23:45Z" finished-at="2018-05-16T08:24:06Z">
-      <class name="SampleMaven.Finance.TC001_LoginPage">
-        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:SampleMaven.Finance.TC001_LoginPage@670b40af]" name="SetUp" is-config="true" duration-ms="14599" started-at="2018-05-16T08:23:45Z" finished-at="2018-05-16T08:24:00Z">
+    <test name="firefox" duration-ms="24272" started-at="2018-05-18T05:54:45Z" finished-at="2018-05-18T05:55:10Z">
+      <class name="SampleMaven.Finance.SampleTestNG">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:SampleMaven.Finance.SampleTestNG@670b40af]" name="startProcess" is-config="true" duration-ms="24116" started-at="2018-05-18T05:54:46Z" finished-at="2018-05-18T05:55:10Z">
           <params>
             <param index="0">
               <value>
@@ -17,16 +17,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="customerLogin()[pri:0, instance:SampleMaven.Finance.TC001_LoginPage@670b40af]" name="customerLogin" duration-ms="6748" started-at="2018-05-16T08:24:00Z" finished-at="2018-05-16T08:24:06Z">
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="f()[pri:0, instance:SampleMaven.Finance.SampleTestNG@670b40af]" name="f" duration-ms="4" started-at="2018-05-18T05:55:10Z" finished-at="2018-05-18T05:55:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- customerLogin -->
-        <test-method status="PASS" signature="KillProcess()[pri:0, instance:SampleMaven.Finance.TC001_LoginPage@670b40af]" name="KillProcess" is-config="true" duration-ms="0" started-at="2018-05-16T08:24:06Z" finished-at="2018-05-16T08:24:06Z">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SampleMaven.Finance.SampleTestNG@670b40af]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-05-18T05:55:10Z" finished-at="2018-05-18T05:55:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- KillProcess -->
-      </class> <!-- SampleMaven.Finance.TC001_LoginPage -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- SampleMaven.Finance.SampleTestNG -->
     </test> <!-- firefox -->
   </suite> <!-- Suite -->
 </testng-results>

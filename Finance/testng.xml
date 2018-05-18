@@ -5,7 +5,7 @@
   <test thread-count="5" name="firefox">
     <parameter name="browser" value="firefox"></parameter>
     <classes>
-      <class name="SampleMaven.Finance.TC001_LoginPage"/>
+      <class name="SampleMaven.Finance.SampleTestNG"/>
     </classes>
   </test> <!-- Test -->
   
