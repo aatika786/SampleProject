@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="chrome(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="SampleMaven.Finance.LinkTesting">
-        <methods>
-          <include name="startprocess"/>
-          <include name="killprocess"/>
-          <include name="linktesting"/>
-        </methods>
-      </class> <!-- SampleMaven.Finance.LinkTesting -->
-    </classes>
-  </test> <!-- chrome(failed) -->
   <test thread-count="5" name="firefox(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="SampleMaven.Finance.LinkTesting">
+      <class name="SampleMaven.Finance.TC001_LoginPage">
         <methods>
-          <include name="startprocess"/>
-          <include name="killprocess"/>
-          <include name="linktesting"/>
+          <include name="SetUp"/>
+          <include name="customerLogin"/>
+          <include name="KillProcess"/>
         </methods>
-      </class> <!-- SampleMaven.Finance.LinkTesting -->
+      </class> <!-- SampleMaven.Finance.TC001_LoginPage -->
     </classes>
   </test> <!-- firefox(failed) -->
-  <test thread-count="5" name="ie(failed)">
-    <parameter name="browser" value="ie"/>
-    <classes>
-      <class name="SampleMaven.Finance.LinkTesting">
-        <methods>
-          <include name="startprocess"/>
-          <include name="killprocess"/>
-          <include name="linktesting"/>
-        </methods>
-      </class> <!-- SampleMaven.Finance.LinkTesting -->
-    </classes>
-  </test> <!-- ie(failed) -->
 </suite> <!-- Failed suite [Suite] -->
